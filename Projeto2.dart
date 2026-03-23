@@ -13,5 +13,5 @@ String NivelRanqueada(int saldo){
 
 void main(){
   int saldo = 50;
-  print("O Herói tem de saldo de $saldo está no nível de ${NivelRanqueada(saldo)}");
+  for(int i = 0; i < 1; i++) print("O Herói tem de saldo de $saldo está no nível de ${NivelRanqueada(saldo)}");
 }
