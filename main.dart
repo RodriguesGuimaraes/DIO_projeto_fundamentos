@@ -1,11 +1,12 @@
 void main(){
   //linguagem: dart                                      | 
-  //Variáveis: int xp                                    | Linha: 8
+  //Variáveis: int xp,String nome                        | Linha: 8~9
   //Operadores: comparativo                              | Linha: 11~17
   //Laços de repetição: não precisava, mas utilizei o for| Linha: 21
   //Estruturas de decisões: switch                       | Linha: 10
   
   int xp = 1000;
+  String nome = "Leoncio";
 
   String mensagem = switch(xp){
     < 1000 => "Ferro",
@@ -19,6 +20,6 @@ void main(){
   };
 
   for(int i = 0; i < 1; i++){
-    print(mensagem);
+    print("O Herói de nome $nome está no nível de $mensagem");
   }
 }
